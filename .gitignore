@@ -4,6 +4,7 @@
 dist
 tmp
 /out-tsc
+.vscode
 
 # dependencies
 node_modules
@@ -33,6 +34,7 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
+libs/react-native-alertify/node_modules
 
 # System Files
 .DS_Store
