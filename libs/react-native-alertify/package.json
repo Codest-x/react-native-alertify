@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.4",
   "name": "react-native-alertify",
   "author": "Esteban Estrada",
   "description": "React Native Alertify is a library that provides a simple and customizable alert component for React Native applications",
@@ -10,6 +10,7 @@
       "url": "https://github.com/Codest-x"
     }
   ],
+  "repository": "https://github.com/Codest-x/react-native-alertify",
   "contributors": [],
   "readme": "README.md",
   "keywords": [

@@ -31,6 +31,7 @@ React Native Alertify is a library that provides a simple and customizable alert
   - [IsShowing](#isshowing)
   - [IsLoading](#isloading)
 - [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
 - [Creator](#creator)
 - [License](#license)
 
@@ -52,9 +53,16 @@ React Native Alertify is a library that provides a simple and customizable alert
 - **Swipable Alerts:** Enable swiping gestures to dismiss alerts, offering intuitive and convenient user interaction.
 - **Background Customization:** Customize the alert background to match the alert type color or your preferred color scheme.
 - **Hide After Loading:** Automatically hide alerts after completion of loading, streamlining the user experience.
+- **Responsive Design:** Ensure optimal rendering across different devices.
 - **React Native Safe Area Support:** Seamlessly integrate with the `react-native-safe-area-context` library to handle safe areas in your app, ensuring proper rendering across different devices.
 
 These features provide extensive customization options and enhance the engagement and usability of `react-native-alertify`, making it a powerful and versatile library for creating interactive and visually appealing alerts in your React Native applications.
+
+## Demo
+
+![](https://github.com/Codest-x/react-native-alertify/blob/main/apps/example-app/src/assets/demo.gif)
+
+See the [demo](https://github.com/Codest-x/react-native-alertify/blob/main/apps/example-app/src/assets/demo.gif) here, the gif looks a bit laggy but the library is smooth is only a mistake when converting the gif.
 
 ## Installation
 
@@ -519,9 +527,27 @@ If you have cloned the repository and are experiencing difficulties starting the
    npx nx serve example-app:run-ios
    ```
 
-### Android App Status
+If you find any issues with the library, please [create an issue](https://github.com/Codest-x/react-native-alertify/issues/new), specifying the problem and how to reproduce it, if is possible upload a screenshot or video of the issue.
 
-Please note that the Android app functionality is currently not available. We are actively working on implementing support for the Android platform and aim to provide it in future updates. We apologize for any inconvenience this may cause.
+I'll try to fix it as soon as possible.
+
+Certainly! Here's an example of a "Contributing" section for your README:
+
+## Contributing
+
+Thank you for considering contributing to the React Native Alertify library! We welcome any contributions that help improve the library and provide a better experience for users. To contribute, please follow these guidelines:
+
+1. Fork the [React Native Alertify repository](https://github.com/Codest-x/react-native-alertify) on GitHub.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature` or `git checkout -b bugfix/your-bug-fix`.
+4. Make your changes and ensure that the code follows the project's coding conventions.
+5. Commit your changes with descriptive commit messages.
+6. Push your branch to your forked repository: `git push origin feature/your-feature`.
+7. Create a pull request from your forked repository to the main repository's `main` branch.
+8. Provide a clear and detailed explanation of your changes in the pull request description.
+9. Be responsive to any feedback or requests for changes from the maintainers.
+
+We appreciate your contributions and will review the pull request as soon as possible. Together, let's make React Native Alertify even better!
 
 ## Creator
 
