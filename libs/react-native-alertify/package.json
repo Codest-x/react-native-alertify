@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "name": "react-native-alertify",
+  "author": "Esteban Estrada",
+  "description": "React Native Alertify is a library that provides a simple and customizable alert component for React Native applications",
+  "maintainers": [
+    {
+      "name": "Esteban Estrada",
+      "email": "est.estrada@outlook.com",
+      "url": "https://github.com/Codest-x"
+    }
+  ],
+  "contributors": [],
+  "readme": "README.md",
+  "keywords": [
+    "react-native",
+    "alert",
+    "alertify",
+    "alertifyjs",
+    "alertify.js",
+    "alertifyjs-react",
+    "alertifyjs-react-native",
+    "alertifyjs-react-native-component",
+    "alertifyjs-react-native-component-library",
+    "alertifyjs-react-native-library",
+    "alertifyjs-react-native-component-library"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "*",
+    "react": "*",
+    "react-native-safe-area-context": "*"
+  }
+}
