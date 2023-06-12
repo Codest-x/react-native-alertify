@@ -20,8 +20,8 @@ const alertIconStyles = ({
       borderColor: theme.colors[theme.mode][type],
     },
     forceWhite: {
-      borderColor: '#fff',
-      color: '#fff',
+      borderColor: theme.mode === 'dark' ? '#fff' : '#000',
+      color: theme.mode === 'dark' ? '#fff' : '#000',
     },
     iconContent: {
       color: theme.colors[theme.mode][type],
